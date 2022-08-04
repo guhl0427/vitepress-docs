@@ -1,0 +1,3 @@
+import{_ as e,c as s,o as a,d as t}from"./app.162fde17.js";const f=JSON.parse('{"title":"Hello VitePress","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","lastUpdated":1659600371000}'),n={name:"index.md"},o=t(`<h1 id="hello-vitepress" tabindex="-1">Hello VitePress <a class="header-anchor" href="#hello-vitepress" aria-hidden="true">#</a></h1><div class="language-"><span class="copy"></span><pre><code><span class="line"><span style="color:#A6ACCD;">update</span></span>
+<span class="line"><span style="color:#A6ACCD;">test ci</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div>`,2),r=[o];function l(c,p,i,d,_,h){return a(),s("div",null,r)}var m=e(n,[["render",l]]);export{f as __pageData,m as default};
