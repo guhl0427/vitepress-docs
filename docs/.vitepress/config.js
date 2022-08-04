@@ -1,6 +1,7 @@
 export default {
   title: 'VitePress',
   description: 'Just playing around.',
+  base: '/vitepress-docs/',
   lastUpdated: true,
   themeConfig: {
     nav: [
