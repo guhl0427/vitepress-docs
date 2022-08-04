@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,d as p}from"./app.162fde17.js";const y=JSON.parse('{"title":"Config index","description":"","frontmatter":{},"headers":[],"relativePath":"config/index.md","lastUpdated":1656500611000}'),l={name:"config/index.md"},e=p("",2),t=[e];function o(i,c,C,A,r,h){return a(),n("div",null,t)}var d=s(l,[["render",o]]);export{y as __pageData,d as default};
