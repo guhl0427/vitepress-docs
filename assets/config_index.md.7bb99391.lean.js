@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as s,d as n}from"./app.8ecc684c.js";const x=JSON.parse('{"title":"Config index","description":"","frontmatter":{},"headers":[],"relativePath":"config/index.md","lastUpdated":1659682036000}'),t={name:"config/index.md"},o=n("",2),i=[o];function c(d,r,_,p,l,f){return s(),a("div",null,i)}var g=e(t,[["render",c]]);export{x as __pageData,g as default};
