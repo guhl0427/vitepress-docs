@@ -6,9 +6,8 @@ export default {
   themeConfig: {
     nav: [
       { text: 'Guide', link: '/guide/' },
-      { text: 'API', link: '/api/' },
       { text: 'Config', link: '/config/' },
-      {
+      /* {
         text: `v`,
         items: [
           {
@@ -20,25 +19,27 @@ export default {
             link: '/contributing/',
           },
         ],
-      },
+      }, */
     ],
 
     sidebar: [
       {
         text: 'Guide',
-        // collapsible: true,
+        collapsible: true,
         // collapsed: true,
         items: [
-          { text: 'Introduction', link: '/guide/' },
-          { text: 'Getting Started', link: '/guide/one' },
+          // { text: 'Guide', link: '/guide/' },
+          { text: 'Guide 1', link: '/guide/one' },
+          { text: 'Guide 2', link: '/guide/two' },
         ]
       },
       {
-        text: 'Guide2',
-        // collapsible: true,
+        text: 'Config',
+        collapsible: true,
         items: [
-          { text: 'Introduction2', link: '/config/' },
-          { text: 'Getting Started2', link: '/config/three' },
+          // { text: 'Config', link: '/config/' },
+          { text: 'Config 1', link: '/config/three' },
+          { text: 'Config 2', link: '/config/four' },
         ]
       }
     ],
@@ -80,17 +81,17 @@ export default {
       ],
     }, */
 
-    localeLinks: {
+    /* localeLinks: {
       text: 'English',
       items: [
         { text: '简体中文', link: 'https://cn.vitest.dev' },
       ],
-    },
+    }, */
 
     socialLinks: [
-      { icon: 'twitter', link: 'twitter' },
-      { icon: 'discord', link: 'discord' },
-      { icon: 'github', link: 'github' },
+      // { icon: 'twitter', link: 'twitter' },
+      // { icon: 'discord', link: 'discord' },
+      { icon: 'github', link: 'https://github.com/guhl0427/vitepress-docs' },
     ],
 
   },
