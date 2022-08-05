@@ -20,13 +20,10 @@ hero:
       link: https://github.com/guhl0427/vitepress-docs
 
 features:
-  - icon: ⚡️
-    title: Vite, The DX that can't be beat
+  - title: features 1
     details: Lorem ipsum...
-  - icon: 🖖
-    title: Power of Vue meets Markdown
+  - title: features 2
     details: Lorem ipsum...
-  - icon: 🛠️
-    title: Simple and minimal, always
+  - title: features 3
     details: Lorem ipsum...
 ---

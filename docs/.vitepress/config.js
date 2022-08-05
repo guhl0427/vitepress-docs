@@ -1,6 +1,6 @@
 export default {
-  title: 'VitePress',
-  description: 'Just playing around.',
+  title: 'Re1 Blog',
+  description: 'Record my learning process.',
   base: '/vitepress-docs/',
   lastUpdated: true,
   themeConfig: {
@@ -43,43 +43,6 @@ export default {
         ]
       }
     ],
-
-    /* sidebar: {
-      // TODO: bring sidebar of apis and config back
-      '/': [
-        {
-          text: 'Guide',
-          items: [
-            {
-              text: 'Why Vitest',
-              link: '/guide/why',
-            },
-            {
-              text: 'Migration Guide',
-              link: '/guide/migration',
-            },
-          ],
-        },
-        {
-          text: 'API',
-          items: [
-            {
-              text: 'API Reference',
-              link: '/api/',
-            },
-          ],
-        },
-        {
-          text: 'Config',
-          items: [
-            {
-              text: 'Config Reference',
-              link: '/config/',
-            },
-          ],
-        },
-      ],
-    }, */
 
     /* localeLinks: {
       text: 'English',

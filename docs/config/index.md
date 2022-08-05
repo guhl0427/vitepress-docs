@@ -1,6 +1,1 @@
 # Config index
-
-
-```
-thissssss
-```
