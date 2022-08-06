@@ -28,7 +28,6 @@ export default {
         collapsible: true,
         // collapsed: true,
         items: [
-          // { text: 'Guide', link: '/guide/' },
           { text: 'Guide 1', link: '/guide/one' },
           { text: 'Guide 2', link: '/guide/two' },
         ]
@@ -37,7 +36,6 @@ export default {
         text: 'Config',
         collapsible: true,
         items: [
-          // { text: 'Config', link: '/config/' },
           { text: 'Config 1', link: '/config/three' },
           { text: 'Config 2', link: '/config/four' },
         ]
