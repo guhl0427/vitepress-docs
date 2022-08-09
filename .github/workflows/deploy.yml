@@ -31,6 +31,8 @@ jobs:
       - name: Build
         run: pnpm vitepress build --base /${{ github.event.repository.name }}/
 
+      - uses: actions/configure-pages@v1
+      
       - uses: actions/upload-pages-artifact@v1
         with:
           path: .vitepress/dist
