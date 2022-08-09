@@ -1,7 +1,7 @@
 # vitepress-doc
 
 ## add ci
-```yml
+```yaml
 # deploy.yml
 name: Deploy
 
