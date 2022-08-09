@@ -5,7 +5,7 @@ title: title
 titleTemplate: Vite
 
 hero:
-  name: my-vitepress-docs
+  name: blog
   text: config my vitepress.
   tagline: Lorem ipsum...
   # image:
