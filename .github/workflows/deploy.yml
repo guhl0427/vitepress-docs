@@ -29,7 +29,7 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm vitepress build --base /${{ github.event.repository.name }}/
+        run: pnpm docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

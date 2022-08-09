@@ -1,6 +1,7 @@
 export default {
   title: 'Re1 Blog',
   description: 'Record my learning process.',
+  base: '/vitepress-docs/',
   lastUpdated: true,
   themeConfig: {
     nav: [
