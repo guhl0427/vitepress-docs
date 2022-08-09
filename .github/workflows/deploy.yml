@@ -34,13 +34,13 @@ jobs:
           node-version: 16
           cache: pnpm
 
+      - uses: actions/configure-pages@v1
+
       - name: Install Dependencies
         run: pnpm i --frozen-lockfile
 
       - name: Build
         run: pnpm vitepress build --base /${{ github.event.repository.name }}/
-
-      - uses: actions/configure-pages@v1
 
       - uses: actions/upload-pages-artifact@v1
         with:
