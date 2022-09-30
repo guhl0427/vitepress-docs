@@ -1,8 +1,8 @@
 ---
 layout: home
 
-title: title
-titleTemplate: Vite
+title: Re1 Blog
+titleTemplate: VitePress
 
 hero:
   name: blog
