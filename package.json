@@ -13,6 +13,13 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "1.0.0-alpha.8",
-    "vue": "^3.2.37"
+    "vue": "^3.2.40"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
   }
 }
