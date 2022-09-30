@@ -3,9 +3,13 @@ export default {
   description: 'Record my learning process.',
   lastUpdated: true,
   themeConfig: {
+    themeConfig: {
+      logo: '/cat.png',
+      siteTitle: 'VitePress-Fun'
+    },
     nav: [
-      { text: 'Guide', link: '/guide/' },
-      { text: 'Config', link: '/config/' },
+      { text: 'Start', link: '/getting-started' },
+      // { text: 'Config', link: '/config/' },
       /* {
         text: `v`,
         items: [
@@ -22,37 +26,38 @@ export default {
     ],
 
     sidebar: [
-      {
+      /* {
         text: 'Guide',
         collapsible: true,
-        // collapsed: true,
+        collapsed: true,
         items: [
           { text: 'Guide 1', link: '/guide/one' },
           { text: 'Guide 2', link: '/guide/two' },
-        ]
+        ],
       },
       {
         text: 'Config',
         collapsible: true,
+        collapsed: true,
         items: [
           { text: 'Config 1', link: '/config/three' },
           { text: 'Config 2', link: '/config/four' },
-        ]
-      }
+        ],
+      }, */
+      {
+        text: 'Git',
+        items: [{ text: 'git-rebase', link: '/git/git-rebase' }],
+      },
+      {
+        text: 'Regex',
+        items: [{ text: 'regex-expression', link: '/regex/index' }],
+      },
     ],
-
-    /* localeLinks: {
-      text: 'English',
-      items: [
-        { text: '简体中文', link: 'https://cn.vitest.dev' },
-      ],
-    }, */
 
     socialLinks: [
       // { icon: 'twitter', link: 'twitter' },
       // { icon: 'discord', link: 'discord' },
       { icon: 'github', link: 'https://github.com/guhl0427/vitepress-docs' },
     ],
-
   },
 }
