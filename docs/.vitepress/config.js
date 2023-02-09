@@ -5,11 +5,10 @@ export default {
   themeConfig: {
     themeConfig: {
       logo: '/cat.png',
-      siteTitle: 'VitePress-Fun'
+      siteTitle: 'VitePress-Fun',
     },
     nav: [
       { text: 'Start', link: '/getting-started' },
-      // { text: 'Config', link: '/config/' },
       /* {
         text: `v`,
         items: [
@@ -26,31 +25,23 @@ export default {
     ],
 
     sidebar: [
-      /* {
-        text: 'Guide',
-        collapsible: true,
-        collapsed: true,
-        items: [
-          { text: 'Guide 1', link: '/guide/one' },
-          { text: 'Guide 2', link: '/guide/two' },
-        ],
-      },
-      {
-        text: 'Config',
-        collapsible: true,
-        collapsed: true,
-        items: [
-          { text: 'Config 1', link: '/config/three' },
-          { text: 'Config 2', link: '/config/four' },
-        ],
-      }, */
       {
         text: 'Git',
+        collapsible: true,
         items: [{ text: 'git-rebase', link: '/git/git-rebase' }],
       },
       {
         text: 'Regex',
+        collapsible: true,
         items: [{ text: 'regex-expression', link: '/regex/index' }],
+      },
+      {
+        text: 'Summary',
+        collapsible: true,
+        items: [
+          { text: '2021年度总结', link: '/summary/2021-full-year' },
+          { text: '2022年中总结', link: '/summary/2022-mid-year' },
+        ],
       },
     ],
 
