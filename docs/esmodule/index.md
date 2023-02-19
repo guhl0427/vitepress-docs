@@ -33,8 +33,9 @@ e2 = 'export 2 modified'
 // index.js
 import e1, { e2 } from './model.js'
 console.log('e1', e1)
-// output: 
+// output: export 1
 console.log('e2', e2)
+// output: export 2 modified
 ```
 
 ## import 和 import()
