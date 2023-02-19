@@ -26,6 +26,11 @@ export default {
 
     sidebar: [
       {
+        text: 'ESModule',
+        collapsible: true,
+        items: [{ text: 'export & import', link: '/esmodule/index' }],
+      },
+      {
         text: 'Git',
         collapsible: true,
         items: [{ text: 'git-rebase', link: '/git/git-rebase' }],
