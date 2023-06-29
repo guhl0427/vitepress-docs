@@ -15,9 +15,9 @@ hero:
     - theme: brand
       text: Get Started
       link: /some-questions
-    # - theme: alt
-    #   text: View on GitHub
-    #   link: https://github.com/guhl0427/vitepress-docs
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/guhl0427/vitepress-docs
 # features:
 #   - title: features 1
 #     details: Lorem ipsum...

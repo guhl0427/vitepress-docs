@@ -3,10 +3,6 @@ export default {
   description: 'Record my learning process.',
   lastUpdated: true,
   themeConfig: {
-    themeConfig: {
-      logo: '/cat.png',
-      siteTitle: 'VitePress-Fun',
-    },
     nav: [
       { text: 'Start', link: '/some-questions' },
       /* {
