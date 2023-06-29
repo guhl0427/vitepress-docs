@@ -1,6 +1,6 @@
+# export 和 export default
 
-## export 和 export default
-### export可以有多个，export default只能有一个
+## export可以有多个，export default只能有一个
 
 ```js
 // model.js
@@ -20,7 +20,7 @@ console.log('b', b) // output: 2
 console.log('m_c', m_c) // output: 3
 ```
 
-### (了解)模块中通过export导出的(属性或者方法)可以修改，但是通过export default导出的不可以修改
+## (了解)模块中通过export导出的(属性或者方法)可以修改，但是通过export default导出的不可以修改
 ```js
 // model.js
 let e1 = 'export 1'

@@ -1,5 +1,5 @@
 export default {
-  title: 'Re1 Blog',
+  title: "Re1's Blog",
   description: 'Record my learning process.',
   lastUpdated: true,
   themeConfig: {
@@ -8,7 +8,7 @@ export default {
       siteTitle: 'VitePress-Fun',
     },
     nav: [
-      { text: 'Start', link: '/getting-started' },
+      { text: 'Start', link: '/some-questions' },
       /* {
         text: `v`,
         items: [

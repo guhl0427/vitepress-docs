@@ -1,7 +1,7 @@
 ---
 layout: home
 
-title: Re1 Blog
+title: Re1's Blog
 titleTemplate: VitePress
 
 hero:
