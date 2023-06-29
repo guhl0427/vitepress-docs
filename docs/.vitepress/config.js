@@ -28,11 +28,11 @@ export default {
       {
         text: 'ESModule',
         collapsed: false,
-        items: [{ text: 'export & import', link: '/esmodule/index' }],
+        items: [{ text: 'export & import', link: '/esmodule/export' }],
       },
       {
         text: 'Git',
-        collapsible: false,
+        collapsed: false,
         items: [
           { text: 'git-rebase', link: '/git/git-rebase' },
           { text: 'SSH & GPG keys', link: '/git/ssh-gpg-keys' },
@@ -41,7 +41,7 @@ export default {
       {
         text: 'Regex',
         collapsed: false,
-        items: [{ text: 'regex-expression', link: '/regex/index' }],
+        items: [{ text: 'regex-expression', link: '/regex/regular-xpression' }],
       },
       {
         text: 'Summary',
