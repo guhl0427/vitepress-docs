@@ -28,7 +28,7 @@ export default {
       {
         text: 'Git',
         collapsible: true,
-        items: [{ text: 'git-rebase', link: '/git/git-rebase' }],
+        items: [{ text: 'git-rebase', link: '/git/git-rebase' },{ text: 'SSH & GPG keys', link: '/git/ssh-gpg-keys' }],
       },
       {
         text: 'Regex',
