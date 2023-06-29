@@ -26,18 +26,26 @@ export default {
 
     sidebar: [
       {
+        text: 'ESModule',
+        collapsed: false,
+        items: [{ text: 'export & import', link: '/esmodule/index' }],
+      },
+      {
         text: 'Git',
-        collapsible: true,
-        items: [{ text: 'git-rebase', link: '/git/git-rebase' },{ text: 'SSH & GPG keys', link: '/git/ssh-gpg-keys' }],
+        collapsible: false,
+        items: [
+          { text: 'git-rebase', link: '/git/git-rebase' },
+          { text: 'SSH & GPG keys', link: '/git/ssh-gpg-keys' },
+        ],
       },
       {
         text: 'Regex',
-        collapsible: true,
+        collapsed: false,
         items: [{ text: 'regex-expression', link: '/regex/index' }],
       },
       {
         text: 'Summary',
-        collapsible: true,
+        collapsed: false,
         items: [
           { text: '2021年度总结', link: '/summary/2021-full-year' },
           { text: '2022年中总结', link: '/summary/2022-mid-year' },
