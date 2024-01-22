@@ -12,7 +12,7 @@
 ### 命令
 git rebase -i commit-hash
 
-将commit-hash值之后的commit合并为同一个commit
+将commit-hash(不包含该commit)值之后的commit合并为同一个commit
 
 git rebase -i HEAD~4
 
