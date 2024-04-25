@@ -1,3 +1,5 @@
+import path from 'node:path'
+
 export default {
   title: "Re1's Blog",
   description: 'Record my learning process.',
@@ -47,6 +49,11 @@ export default {
           { text: '2022年中总结', link: '/summary/2022-mid-year' },
         ],
       },
+      {
+        text: 'Vue',
+        collapsed: false,
+        items: [{ text: '在markdown中使用vue', link: '/vue/vue-in-markdown' }],
+      }
     ],
 
     socialLinks: [
@@ -55,4 +62,12 @@ export default {
       { icon: 'github', link: 'https://github.com/guhl0427/vitepress-docs' },
     ],
   },
+  vite: {
+    resolve: {
+      // 设置别名
+      alias: {
+        '@': path.resolve(__dirname, '../'),
+      },
+    },
+  }
 }
