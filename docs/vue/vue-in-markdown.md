@@ -17,7 +17,8 @@
 
 <script setup>
 import { ref } from 'vue'
-import { NSpace, NButton, NConfigProvider, darkTheme } from 'naive-ui'
+import * as pkg from 'naive-ui';
+const { NSpace, NButton, NConfigProvider, darkTheme } = pkg;
 import { useDark } from '@/composables/useDark'
 
 const { isDark } = useDark()
